@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+h1.logo{
+  color: rgb(29, 29, 148);
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Berkshire Swash", cursive;
+  text-shadow: 5px 1px 0 rgb(78, 248, 78);
+   
+               
+
+}
+.bienvenida {
+  color: whitesmoke;
+  background-color: midnightblue;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 30px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/imagenes/fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a.navegacion:hover {
+  color: #065dff;
+  justify-content: space-between;
+  border: 2px solid mintcream;
+  background-color: rgba(241, 243, 245, 0.781);
+}
+a.navegacion {
+  text-align: center;
+  color: #050505d7;
+  margin: 40px;
+  font-size: 40px;
+  text-shadow: 3px 2px 0 rgb(245, 246, 245);
+}
+/* convertidor  */
+.div_1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 143, 192);
+  padding: 30px;
+  border: 2px solid mintcream;
+  margin: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.div_1 button {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf9f9;
+  font-size: 15px;
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #0d6efd;
+  background-color: #fafafa;
+}
+.div_1 button:hover {
+  background-color: #0d6efd;
+  color: #fdf9f9;
+}
+.div_1 input {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf9f9;
+  font-size: x-large;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 50px;
+ 
+
+}
+div.precio {
+  color: rgb(253, 251, 251);
+  background-color: rgb(37, 143, 192);
+  border: 1px solid mintcream;
+
+  
+}
+
+.card {
+  border-radius: 20px;
+  margin-right: 100px;
+  align-items: center;
+  color: black;
+  background-color: #fdf9f9;
+  right: -4%;
+}
+.card p {
+  color: blue;
+}
+#contenedor {
+  display: flex;
+  border: 2px solid mintcream;
+  min-width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  padding: 35px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.div_1 {
+  border-radius: 20px;
+  background-color: #dcdaff;
+  font-size: 30px;
+}
+.div_1:hover {
+  color: #065dff;
+}
+.conversion1 {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fdf9f9;
+  font-size: x-large;
+}
+
+/* tarjetas de Compras */
+.btnInt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.btn_card {
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #00a2ff;
+  text-align: center;
+  width: 200px;
+}
+.btn_card:hover {
+  background-color: #fdf9f9;
+  color: #00a2ff;
+}
+
+/* prediccion del tiempo */
+#contendor2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  
+}
+
+#caja1,
+#caja2,
+#caja3 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10%;
+  width: 250px;
+  height: 300px;
+  font-display: center;
+}
+#caja1 {
+  background-color: rgba(2, 2, 2, 0.767);
+  color: azure;
+}
+#caja2 {
+  background-color: darkblue;
+  color: azure;
+}
+#caja3 {
+  background-color: #2ab2ea;
+  color: azure;
+}
